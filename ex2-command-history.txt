@@ -1,0 +1,60 @@
+  299  sudo echo "I am unsure why my add commands didn't save to my history. I do use two or more terminals to run commands and search man pages. Additionally I was using root to run the usermod commands. I ran history for my username (Christopher) but came up with now mention of using the adduser command. Additionally, I could not find a way to rename the usernames to anything with a space in the name. It appears that space is an invalid character. Any help or explination would be great. Thank you." >> ~/CIT173_Lab6/ex1-command-history.txt 
+  300  cat ~/CIT173_Lab6/ex1-command-history.txt 
+  301  wget https://github.com/RenoTechnologyAcademy/CIT173_Lab6_Files/archive/master.tar.gz 
+  302  ls
+  303  mv master.tar.gz CIT173_Lab6/
+  304  cd CIT173_Lab6/
+  305  ls
+  306  tar -xf master.tar.gz 
+  307  ls master.tar.gz 
+  308  ls
+  309  cd ..
+  310  ls
+  311  cd CIT173_Lab6/
+  312  ls CIT173_Lab6_Files-master/
+  313  sudo mkdir /var/Star Wars
+  314  ls /var
+  315  sudo rm /var/star
+  316  sudo rm /var/Star
+  317  sudo rm -r /var/Star
+  318  sudo mkdir /var/Star Wars/
+  319  cd ..
+  320  ls
+  321  cd ..
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd /var
+  326  ls
+  327  sudo rm -r Star/
+  328  ls
+  329  sudo mkdir /var/'Star Wars'
+  330  ls /var/
+  331  mv /etc/'Star Wars' /etc/Star Wars
+  332  sudo rm /etc/'Star Wars'
+  333  sudo rm -r /etc/Star\ Wars/
+  334  sudo rm -r /etc/'Star Wars'
+  335  cd /etc/
+  336  cd var
+  337  sudo rm -r /var/Star\ Wars/
+  338  sudo mkdir /var/Star\ Wars/
+  339  ls /var/
+  340  sudo mkdir /var/Star\ Wars/finance && sudo mkdir /var/Star\ Wars/directing && sudo mkdir /var/Star\ Wars/creative
+  341  cd ~/CIT173_Lab6/CIT173_Lab6_Files-master/
+  342  mv star-wars-budget.txt /var/Star\ Wars/finance/ && mv star-wars-journal.txt /var/Star\ Wars/directing/
+  343  sudo mv star-wars-budget.txt /var/Star\ Wars/finance/ && sudo mv star-wars-journal.txt /var/Star\ Wars/directing/ && sudo mv star-wars-script.txt /var/Star\ Wars/creative/
+  344  ls /var/Star\ Wars/finance/
+  345  ls /var/Star\ Wars/directing/
+  346  ls /var/Star\ Wars/creative/
+  347  sudo chown -Rv GaryKurtz:producers /var/Star\ Wars/finance/
+  348  sudo chown -Rv GeorgeLucas:directors /var/Star\ Wars/directing/
+  349  sudo chown GeorgeLucas:actors /var/Star\ Wars/creative/
+  350  sudo chmod 750 /var/Star\ Wars/finance/
+  351  sudo chmod 775 /var/Star\ Wars/directing/
+  352  sudo chmod 750 /var/Star\ Wars/creative/
+  353  history 
+  354  history | tee ~/CIT173_Lab6/ex2-command-history.txt
+  355  history 54 > ~/CIT173_Lab6/ex2-command-history.txt 
+  356  cd ..
+  357  cat ex2-command-history.txt 
+  358  history 60 > ~/CIT173_Lab6/ex2-command-history.txt 

@@ -1,0 +1,53 @@
+    1  groupadd actors
+    2  groupadd directors
+    3  groupadd producers
+    4  add user mhamill
+    5  adduser mhamill
+    6  useradd -G actors
+    7  man usermod
+    8  usermod mhamill -l Mark Hamill
+    9  usermod -l Mark Hamill mhamill
+   10  id mhamill
+   11  useradd -g actors mhamill
+   12  useradd -g actors hford
+   13  useradd -g actors cfisher
+   14  useradd -g directors -G producers glucas
+   15  useradd -g producers gkurtz
+   16  passwd mhamill
+   17  su - mhamill
+   18  passwd hford
+   19  passwd cfisher
+   20  passwd glucas
+   21  passwd gkurtz
+   22  usermod -l Mark Hamill mhamill
+   23  usermod -l 'Mark Hamill' mhamill
+   24  usermod -l "Mark Hamill" mhamill
+   25  usermod -l MarkHamill mhamill
+   26  usermod -l mhamill MarkHamill
+   27  usermod -l Mark \Hamill mhamill
+   28  usermod -l Mark\ Hamill mhamill
+   29  usermod -l MarkHamill mhamill
+   30  usermod -l HarrisonFord hford
+   31  usermod -l CarrieFisher cfisher
+   32  usermod -l GeorgeLucas glucas
+   33  usermod -l GaryKurtz gkurtz
+   34  cat /etc/passwd
+   35  cat /etc/groups
+   36  cat /etc/group
+   37  usermod -a G actors MarkHamill
+   38  usermod -a -G actors MarkHamill
+   39  usermod -a -G actors HarrisonFord
+   40  usermod -a -G actors CarrieFisher
+   41  usermod -a -G directors GeorgeLucas
+   42  usermod -a -G producers GaryKurtz
+   43  cat /etc/group
+   44  cp --archive /etc/passwd /home/christopher/CIT173_Lab5/
+   45  cp --archive /etc/group /home/christopher/CIT173_Lab5/
+   46  cp --archive /etc/passwd /home/christopher/CIT173_Lab6/
+   47  cp --archive /etc/group /home/christopher/CIT173_Lab6/
+   48  cat /home/christopher/CIT173_Lab6/group 
+   49  cat /home/christopher/CIT173_Lab6/passwd 
+   50  exit
+   51  RTArocks1
+   52  history | tee /home/christopher/CIT173_Lab6/ex1-command-history.txt
+I am unsure why my add commands didn't save to my history. I do use two or more terminals to run commands and search man pages. Additionally I was using root to run the usermod commands. I ran history for my username (Christopher) but came up with now mention of using the adduser command. Additionally, I could not find a way to rename the usernames to anything with a space in the name. It appears that space is an invalid character. Any help or explination would be great. Thank you.
